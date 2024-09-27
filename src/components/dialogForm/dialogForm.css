@@ -1,0 +1,15 @@
+.field-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin: 0.313rem 0;
+
+  label {
+    margin: 1rem 0;
+  }
+
+  small {
+    margin-top: 0.313rem;
+    min-height: 1em;
+  }
+}

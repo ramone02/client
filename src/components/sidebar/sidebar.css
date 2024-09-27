@@ -1,0 +1,18 @@
+.sidebar {
+  width: 4.25rem;
+  height: 100%;
+  background-color: #253346;
+  padding: 1.25rem;
+  box-shadow: 0.125rem 0 0.313rem rgba(0, 0, 0, 0.1);
+  position: fixed; 
+}
+
+.sidebar-title {
+  font-size: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.sidebar-menu {
+  list-style-type: none;
+  padding: 0;
+}
