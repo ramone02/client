@@ -149,7 +149,7 @@ export default function UserDashboard({ initialUsers }: UserDashboardProps) {
   }, []);
 
   return (
-    <div style={{ padding: "0 3rem 0 8rem", minWidth: "80%" }}>
+    <div style={{ padding: "2.83rem 3rem 0 8rem", minWidth: "80%" }}>
       <Toast ref={toast} />
       <ConfirmDialog />
       <HeaderUser
