@@ -1,11 +1,13 @@
 .navbar {
   background-color: #0763e7;
-  height: 2.813;
+  height: 2.813rem;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 1rem 0 1rem;
+  position: fixed;
+  z-index: 1000;
 
   i {
     font-size: 1.5rem;
