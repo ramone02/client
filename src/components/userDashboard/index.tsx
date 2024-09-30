@@ -149,7 +149,7 @@ export default function UserDashboard({ initialUsers }: UserDashboardProps) {
   }, []);
 
   return (
-    <div style={{ padding: "0 8rem 0 8rem", minWidth: "60%" }}>
+    <div style={{ padding: "0 3rem 0 8rem", minWidth: "80%" }}>
       <Toast ref={toast} />
       <ConfirmDialog />
       <HeaderUser
@@ -159,6 +159,7 @@ export default function UserDashboard({ initialUsers }: UserDashboardProps) {
       />
       <DataTable
         value={filteredUsers}
+        size="small"
         paginator
         rows={5}
         rowsPerPageOptions={[5, 10, 15]}
